@@ -27,7 +27,7 @@ git clone https://www.github.com/vimanuelt/assemble-minimal-env-for-poudriere.gi
 cd assemble-minimal-env-for-poudriere
 ```
 
-#### To build a GhostBSD 
+#### To build a GhostBSD bootable image (ISO) file
 ```
 ./build.sh -r release
 ```
