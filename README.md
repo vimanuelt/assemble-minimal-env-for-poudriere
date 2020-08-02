@@ -19,7 +19,7 @@ Note: GhostBSD should be used to build ISO.
 ## Initial setup
 Clone the repo:
 ```
-git clone https://www.github.com/ghostbsd/assemble-minimal-env-for-poudriere.git
+git clone https://www.github.com/vimanuelt/assemble-minimal-env-for-poudriere.git
 ```
 ## Starting a build
 #### Enter the directory for running the LiveCD build script:
