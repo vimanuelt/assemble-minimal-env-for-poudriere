@@ -1,4 +1,4 @@
-assemble-livecd
+assemble-minimal-env-for-poudriere
 ===============
 Live media creator for GhostBSD distribution
 
