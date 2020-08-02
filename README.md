@@ -24,7 +24,7 @@ git clone https://www.github.com/vimanuelt/assemble-minimal-env-for-poudriere.gi
 ## Starting a build
 #### Enter the directory for running the LiveCD build script:
 ```
-cd assemble-minimal-env-for-poudriere.git
+cd assemble-minimal-env-for-poudriere
 ```
 
 #### To build a GhostBSD 
