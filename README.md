@@ -3,7 +3,7 @@ assemble-livecd
 Live media creator for GhostBSD distribution
 
 ## Introduction
-The purpose of this tool is quickly generate live images for GhostBSD.
+The purpose of this tool is provide a GhostBSD environment for Poudriere.
 
 ## Features
 * Build GhostBSD from packages
@@ -19,12 +19,12 @@ Note: GhostBSD should be used to build ISO.
 ## Initial setup
 Clone the repo:
 ```
-git clone https://www.github.com/ghostbsd/assemble-livecd.git
+git clone https://www.github.com/ghostbsd/assemble-minimal-env-for-poudriere.git
 ```
 ## Starting a build
 #### Enter the directory for running the LiveCD build script:
 ```
-cd assemble-livecd
+cd assemble-minimal-env-for-poudriere.git
 ```
 
 #### To build a GhostBSD 
@@ -38,10 +38,10 @@ or
 
 ## Burn an image to cd:
 ```
-cdrecord /usr/local/ghostbsd-build/iso/GhostBSD-2020-04.iso
+cdrecord /usr/local/ghostbsd-build/iso/GhostBSD-2020-08-02.iso
 ```
 
 ## Write an image to usb stick:
 ```
-dd if=/usr/local/ghostbsd-build/iso/GhostBSD-2020-04.iso of=/dev/da0 bs=4m
+dd if=/usr/local/ghostbsd-build/iso/GhostBSD-2020-08-02.iso of=/dev/da0 bs=4m
 ```
